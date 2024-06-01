@@ -1,0 +1,146 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    padding: 1rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .nav-link {
+    font-size: 1.1rem;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background-image: url('C:/Users/Junel/Documents/Justine Files/Random/exam/images/trainstation1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }
+  
+  /* Photographer Sections Styles */
+  section {
+    padding: 4rem 0;
+  }
+  
+  .photographer-bio {
+    margin-bottom: 2rem;
+  }
+  
+  .photographer-bio p {
+    font-size: 3rem;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+  }
+  
+  /* Contact Section Styles */
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  /* Footer Styles */
+  footer {
+    padding: 2rem 0;
+    color: #ffffff;
+  }
+  
+  /* Image Styles */
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .card {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Additional Styles for Photographer Sections */
+  .card-img-top {
+    height: 300px; /* Adjust height as needed */
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .card-body {
+    background-color: #f8f9fa; /* Light gray background */
+    border-radius: 10px;
+    padding: 1.5rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  
+  /* Additional Styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .section-heading {
+    margin-bottom: 40px;
+  }
+  
+  .section-heading h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .section-heading p {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
+  .card-columns {
+    column-count: 1;
+  }
+  
+  @media (min-width: 768px) {
+    .card-columns {
+      column-count: 2;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .card-columns {
+      column-count: 3;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .card-columns {
+      column-count: 4;
+    }
+  }
+  
