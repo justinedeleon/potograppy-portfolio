@@ -20,7 +20,7 @@ body {
   
   /* Hero Section Styles */
   .hero {
-    background-image: url('C:/Users/Junel/Documents/Justine Files/Random/exam/images/trainstation1.jpg');
+    background-image: url('images/trainstation1.jpg');
     background-size: cover;
     background-position: center;
     height: 60vh;
